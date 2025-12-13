@@ -1,0 +1,23 @@
+Operating Systems Coursework
+Module: CMPN202 – Operating Systems
+Course: BSc Computer Science
+Student ID: A00020851
+Project Overview
+
+This technical journal documents the configuration, security hardening, and performance evaluation of a Linux server operating system. The coursework is completed over seven weeks and focuses on command-line
+administration, operating system security, and system performance analysis.
+A dual-system architecture is used, consisting of a headless Linux server managed remotely from a separate workstation using SSH. This reflects real-world system administration and cloud infrastructure practices.
+
+System Architecture Summary
+
+It consists of:
+
+Server: Ubuntu Server
+IP address: 192.168.56.101
+Accessed only via SSH
+
+Workstation: Fedora Linux
+IP address: 192.168.56.102
+Used for administration, monitoring, and testing
+
+Both systems are connected using a VirtualBox host-only network, ensuring all testing is isolated and secure.
